@@ -23,3 +23,58 @@
     padding: 2.5rem;
     border-radius: 1rem;
 }
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    /*coloca todo encima*/
+}
+
+.campo label {
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.campo input {
+
+    font-size: 2rem;
+}
+
+.btn-registrar{
+    width: 100%;
+    font-size: 2rem;
+    padding: .4rem;
+    background-color: green;
+    border: none;
+    border-radius: .5rem;
+    color: aliceblue;
+}
+
+.btn-registrar:hover{
+    cursor: pointer;
+    padding: .6rem;
+    background-color: rgb(58, 218, 58);
+}
+
+.formulario h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.alert{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+    color: white;
+    padding: .5rem;
+}
+
+.alert__error{
+    background-color: red;
+}
